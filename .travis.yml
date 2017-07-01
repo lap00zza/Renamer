@@ -11,7 +11,10 @@ deploy:
   api_key:
     secure: Oo7uv0tBJBQXu0fGAltrDVpXMMh/k3tDjVd/5bA11QVfI7Lvo7FJWHIf1RYY0UsESC65jLpUYb9Uw7hQHxYbc318UQvCNKWfHQkYE2icAB1xeHYIQ1Lpqv2EfDHGtD9TFYgNa6nkqBaNAfRSCadSdfk17I9nOtHDpW3LuWaIJYOPq0rKOSxUPxSEiLnDaags/9bgDB1VMWgUYoYdPnOMe1asrn/J6cGfflgAvfLyJSsfhZaKUiNBosRQFjeBHxEav+znt58KrkhsEhi4BIVchiyaZnK/y2oUvJGxsNYAVpQa3G90tASac0YGoF7LAiQ6wSCJaMmoViJtuFEC9Xc1QclwxjiOkbyBvuJRmawLVBfwR+Fm8y0kb9v1UkH8fkbWBbvE3w6OrJy9IJXH+pcZH73L1RYZITVHo6dP7HH7xPARNbet+5KPZiStbffreX5idYisqHcOXASCku13lBM8uMPbiUrJrtabg0gkbZSscKW25v4ObYMkkU8KYQzX3v1gm531YGR7c9TBd0s+6NJMs9puirpJlr62qqlgxjESgfr5ohSEH6lpQhDhaOAb75Cfge+8pVFy20Zsb+xUJQBT+mzFM9THLOW4Zug8DT5RTIFLOkv5aiZ7zTSL+rCpkSwCuhyCMhf/E251OdqaXXuFKbB94lw+nFEv2Mav5r3Cl5U=
   file:
-    - Renamer.exe
+    - renamer-windows-amd64.exe
+    - renamer-windows-386.exe
+    - renamer-linux-amd64
+    - renamer-linux-386
   skip_cleanup: true
   on:
     tags: true
