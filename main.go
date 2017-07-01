@@ -29,7 +29,8 @@ import (
 	"os"
 )
 
-// For now, we only need the Files
+// Metadata defines our JSON structure.
+// For now, we only need the Files key.
 type Metadata struct {
 	Files []map[string]string `json:"files"`
 }
