@@ -5,8 +5,8 @@ A simple file renamer that works with [Grabber](https://github.com/lap00zza/Grab
 
 ## Usage
 #### Easy way
-* Download an executable from Releases
-* Move `metadata.json` and `Renamer` to the folder where you downloaded your files
+* Download an executable from [Releases](https://github.com/lap00zza/Renamer/releases)
+* Move `metadata.json` and `Renamer` to the folder where your downloaded your files
 * Run renamer (ex: double-click)
 * Enjoy your renamed files
 
